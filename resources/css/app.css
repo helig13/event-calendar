@@ -1,0 +1,454 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.header {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.bg-dark1 {
+    background-color: #1E1E1E;
+}
+
+.bg-red1 {
+    background-color: #ff4d6b;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 200;
+    color: #fff9fa;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.text-header {
+    height: 40px;
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 200;
+    color: #fff9fa;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 40px;
+    white-space: nowrap;
+}
+
+.button-red {
+    display: inline-flex;
+    align-items: center;
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 400;
+    border-radius: 0.75rem;
+    background-color: #ff4d6b29;
+    padding: 0.25rem 1rem;
+    color: #ff4d6b;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.button-red-active {
+    display: inline-flex;
+    align-items: center;
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 400;
+    border-radius: 0.75rem;
+    background-color: #ff4d6b;
+    padding: 0.25rem 1rem;
+    color: #131315;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.button-green {
+    display: inline-flex;
+    align-items: center;
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 400;
+    border-radius: 0.75rem; /* equivalent to rounded-xl in Tailwind */
+    background-color: #00cc6629;
+    padding: 0.25rem 1rem; /* py-1 and px-2 in Tailwind */
+    color: #00cc66;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.button-green-active {
+    display: inline-flex;
+    align-items: center;
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 400;
+    border-radius: 0.75rem; /* equivalent to rounded-xl in Tailwind */
+    background-color: #00cc66;
+    padding: 0.25rem 1rem; /* py-1 and px-2 in Tailwind */
+    color: #131315;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.button-blue {
+    display: inline-flex;
+    align-items: center;
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 400;
+    border-radius: 0.75rem; /* equivalent to rounded-xl in Tailwind */
+    background-color: #4db4ff29;
+    padding: 0.25rem 1rem; /* py-1 and px-2 in Tailwind */
+    color: #4db4ff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.button-blue-active {
+    display: inline-flex;
+    align-items: center;
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 400;
+    border-radius: 0.75rem; /* equivalent to rounded-xl in Tailwind */
+    background-color: #4db4ff;
+    padding: 0.25rem 1rem; /* py-1 and px-2 in Tailwind */
+    color: #131315;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.button-yellow {
+    display: inline-flex;
+    align-items: center;
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 400;
+    border-radius: 0.75rem; /* equivalent to rounded-xl in Tailwind */
+    background-color: #ffbb3229;
+    padding: 0.25rem 1rem; /* py-1 and px-2 in Tailwind */
+    color: #ffbb32;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.button-yellow-active {
+    display: inline-flex;
+    align-items: center;
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 400;
+    border-radius: 0.75rem; /* equivalent to rounded-xl in Tailwind */
+    background-color: #ffbb32;
+    padding: 0.25rem 1rem; /* py-1 and px-2 in Tailwind */
+    color: #131315;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+
+.header .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 600;
+    color: #ff4e6b;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.header .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Lexend-ExtraLight", Helvetica, sans-serif;
+    font-weight: 200;
+    color: #fff9fa;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.text-month {
+    height: 32px;
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 200;
+    color: #fff9fa;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+}
+
+.text-day {
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 300;
+    color: #797979;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.text-date {
+    width: 51px;
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 300;
+    color: #fff9fa;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+
+.text-date-red {
+    width: 51px;
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 300;
+    color: #ff4e6b;
+    background-color: #fff9fa0a;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+
+.text-outdate {
+    width: 51px;
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 300;
+    color: #797979;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+
+.name {
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 500;
+    color: #fff9fa;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+.description{
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 200;
+    color: #fff9fa;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+.location{
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 490;
+    color: #797979;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+.date{
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 300;
+    color: #ff4e6b;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+
+}
+
+.bg-modal {
+    background-color: #131315;
+}
+
+.input-modal {
+    padding: 10px 12px;
+    position: relative;
+    background-color: #fff9fa0a;
+    border: none;
+    flex: 1;
+    margin-top: -1px;
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 300;
+    color: #797979;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.input-modal:focus {
+    outline: #ff4e6b;
+}
+
+
+.font-LexELight {
+    font-family: "Lexend-ExtraLight", Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.select {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 10px 12px;
+    position: relative;
+    background-color: #fff9fa0a;
+}
+
+.add-button {
+    padding: 8px 16px;
+    background-color: #ff4d6b;
+    box-sizing: border-box;
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 500;
+    color: #131315;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.dot {
+    display: inline-block;
+    margin: 0 2px;
+    height: 6px;
+    width: 6px;
+    border-radius: 4px;
+}
+
+
+.dropdown-text {
+    background-color: #151517;
+    border: none;
+    flex: 1;
+    margin-top: -1px;
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.button-no-bg {
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 500;
+    color: #ff4e6b;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.select .text-wrapper {
+    position: relative;
+    flex: 1;
+    margin-top: -1px;
+    font-family: "Lexend", Helvetica, sans-serif;
+    font-weight: 300;
+    color: #fff9fa;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.select .arrow-down {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+
+.label .text-wrapper {
+    /*height: 24px;*/
+    font-family: "Lexend-SemiBold", Helvetica, sans-serif;
+    font-weight: 600;
+    color: #ff4e6b;
+    font-size: 24px;
+    letter-spacing: 0;
+    /*line-height: 24px;*/
+    white-space: nowrap;
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('/public/fonts/Lexend-Black.ttf') format('truetype');
+    font-weight: 900; /* Black */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('/public/fonts/Lexend-Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('/public/fonts/Lexend-ExtraBold.ttf') format('truetype');
+    font-weight: 800; /* ExtraBold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('/public/fonts/Lexend-ExtraLight.ttf') format('truetype');
+    font-weight: 200; /* ExtraLight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('/public/fonts/Lexend-Light.ttf') format('truetype');
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('/public/fonts/Lexend-Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('/public/fonts/Lexend-Regular.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('/public/fonts/Lexend-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* SemiBold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('/public/fonts/Lexend-Thin.ttf') format('truetype');
+    font-weight: 100; /* Thin */
+    font-style: normal;
+}
